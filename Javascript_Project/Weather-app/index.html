@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Search UI</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center" style="background: #222;">
+        <div class="card border-0 text-center">
+            <div class="search d-flex align-items-center justify-content-between">
+                <input type="text" id="search" class="form-control" placeholder="Enter Your City Name: " spellcheck="false" >
+                <button class="btn rounded-circle">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" alt="weather-icone" class="weatherIcone">
+                <h1 class="temp">22&deg;c</h1>
+                <h2 class="city">New York</h2>
+                <div class="details align-items-center justify-content-between">
+                    <div class="row text-center">
+                        <!-- Humidity Column -->
+                        <div class="col-6 d-flex flex-column align-items-center">
+                            <img src="images/humidity.png" alt="humidity-icon" class="mb-2">
+                            <div>
+                                <p class="humidity mb-0">50%</p>
+                                <p class="mb-0">Humidity</p>
+                            </div>
+                        </div>
+                    
+                        <!-- Wind Speed Column -->
+                        <div class="col-6 d-flex flex-column align-items-center">
+                            <img src="images/wind.png" alt="wind-icon" class="mb-2">
+                            <div>
+                                <p class="wind mb-0">15 Km/h</p>
+                                <p class="mb-0">Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
