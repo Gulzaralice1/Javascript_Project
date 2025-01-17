@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Age Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="age-calculator-container">
+        <h1>JavaScript</h1>
+        <h2>Age Calculator</h2>
+        <div class="d-flex justify-content-center align-items-center mb-3">
+            <input type="date" id="birthdate" class="form-control me-3" style="width: 200px;">
+            <button class="btn btn-calculate" onclick="calculateAge()">Calculate</button>
+        </div>
+        <p id="result" class="mt-3"></p>
+    </div>
+
+    <!-- <script>
+        function calculateAge() {
+            const birthdateInput = document.getElementById("birthdate").value;
+
+            if (!birthdateInput) {
+                document.getElementById("result").innerText = "Please select your birthdate.";
+                return;
+            }
+
+            const birthDate = new Date(birthdateInput);
+            const today = new Date();
+
+            let years = today.getFullYear() - birthDate.getFullYear();
+            let months = today.getMonth() - birthDate.getMonth();
+            let days = today.getDate() - birthDate.getDate();
+
+            if (days < 0) {
+                months--;
+                days += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+            }
+            if (months < 0) {
+                years--;
+                months += 12;
+            }
+
+            document.getElementById("result").innerText = `You are ${years} years, ${months} months and ${days} days old.`;
+        }
+    </script> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
