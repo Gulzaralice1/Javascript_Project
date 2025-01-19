@@ -1,0 +1,17 @@
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.course-card {
+    background: linear-gradient(135deg, #798645, #FEFAE0, #F2EED7, #626F47);
+    color: #fff; /* To ensure text is readable */
+} 
+.discription{
+    color: black;
+}
