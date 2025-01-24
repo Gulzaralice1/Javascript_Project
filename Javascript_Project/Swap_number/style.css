@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    background-image: url('abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.avif');
+    mix-blend-mode: screen;
+    background-size: cover;
+}
+
+.custom-container {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #c0939d 0%, #0e0c0c 50%, #6985b2 100%) !important;
+}
+
+/* From Uiverse.io by kamehame-ha */ 
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
+  
+  .button:hover svg path {
+    fill: #c6b1b1;
+  }
