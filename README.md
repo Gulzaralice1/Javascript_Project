@@ -55,6 +55,15 @@ Welcome to my project portfolio! This collection showcases my web development jo
    - **Live Demo**: [View Here](https://gulzaralice1.github.io/color-picker/)
 
 ---
+### 7. **🔄 Swap Numbers**
+   - **Description**: An interactive tool that allows users to input two numbers and swap their values with a simple click.
+   - **Features**:
+     - User-friendly interface with input fields for two numbers.
+     - Instantly displays the swapped result upon clicking the "Swap" button.
+   - **Live Demo**: [View Here](https://gulzaralice1.github.io/color-picker/)
+
+---
+
 
 ## 💡 About These Projects
 Each application is designed with simplicity and functionality in mind. They demonstrate my growing expertise in:
