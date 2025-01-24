@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+.card-body{
+    background: linear-gradient(90deg, #de9fde, #a9c3ca) !important;
+}
+.card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #6083a7;
+    color: white;
+}
+
+.card-body {
+    padding: 20px;
+}
+/* From Uiverse.io by kamehame-ha */ 
+.button {
+
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+  }
+  
+
+  .button:hover {
+    background-color: transparent;
+    border: 1px solid #181717;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
