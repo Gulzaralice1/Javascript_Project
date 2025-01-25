@@ -5,6 +5,7 @@ const loginMessage = document.getElementById('login-message');
 let clickCount = 1;
 
 submitButton.addEventListener('click', (event) => {
+    alert("id,password: admin");
     console.log('Button clicked');
     console.log(`email: ${emailInput.value}`);
     console.log(`password: ${passwordInput.value}`);
