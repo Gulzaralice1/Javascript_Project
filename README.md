@@ -63,6 +63,26 @@ Welcome to my project portfolio! This collection showcases my web development jo
    - **Live Demo**: [View Here](https://gulzaralice1.github.io/color-picker/)
 
 ---
+### 8. **💖 Love Message App 💌**
+- **Description**: A fun and interactive web app that displays heartwarming messages for her, one by one, every time you click the button. Perfect for spreading love and positivity! 💕😊
+- **Features**:
+  - 💬 Sequential messages that appear one by one.
+  - ❤️ Randomized or fixed flow of messages.
+  - 🎉 Interactive button to reveal new messages.
+  - 📱 Fully responsive layout powered by **Bootstrap**.
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/love-message-app/) 🌐
+
+---
+### 9. **😂 Random Joke Generator**
+- **Description**: An interactive web app that displays random jokes to brighten your day! Just click the button to get a new joke each time. 😄🎉
+- **Features**:
+  - 🎭 A variety of jokes to keep the laughter going.
+  - 🤖 Random joke generator for a new laugh every time.
+  - 🎉 Interactive button to reveal the joke.
+  - 📱 Fully responsive layout powered by **Bootstrap**.
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/Random_Joke/) 🌐
+
+---
 
 
 ## 💡 About These Projects
