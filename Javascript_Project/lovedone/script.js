@@ -21,7 +21,7 @@ const messagesHub = [
   "You have a heart of gold.",
   "Your strength is unmatched.",
   "You are a blessing to all.",
-  "You are my inspiration."
+  "You are my inspiration.",
 ];
 
 function showNextMessage() {
