@@ -55,6 +55,7 @@ Welcome to my project portfolio! This collection showcases my web development jo
    - **Live Demo**: [View Here](https://gulzaralice1.github.io/color-picker/)
 
 ---
+
 ### 7. **🔄 Swap Numbers**
    - **Description**: An interactive tool that allows users to input two numbers and swap their values with a simple click.
    - **Features**:
@@ -63,6 +64,7 @@ Welcome to my project portfolio! This collection showcases my web development jo
    - **Live Demo**: [View Here](https://gulzaralice1.github.io/Swap/)
 
 ---
+
 ### 8. **💖 Love Message App 💌**
 - **Description**: A fun and interactive web app that displays heartwarming messages for her, one by one, every time you click the button. Perfect for spreading love and positivity! 💕😊
 - **Features**:
@@ -71,8 +73,8 @@ Welcome to my project portfolio! This collection showcases my web development jo
   - 🎉 Interactive button to reveal new messages.
   - 📱 Fully responsive layout powered by **Bootstrap**.
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/love-message-app/) 🌐
-
 ---
+
 ### 9. **😂 Random Joke Generator**
 - **Description**: An interactive web app that displays random jokes to brighten your day! Just click the button to get a new joke each time. 😄🎉
 - **Features**:
@@ -83,6 +85,7 @@ Welcome to my project portfolio! This collection showcases my web development jo
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/Random_Joke/) 🌐
 
 ---
+
 ### 10. **📜 Random Quote Generator**  
 - **Description**: An interactive web app that displays random inspirational quotes to keep you motivated! Click the button to get a new quote each time. ✨💡  
 - **Features**:  
@@ -91,7 +94,9 @@ Welcome to my project portfolio! This collection showcases my web development jo
   - 📢 Interactive button to generate new quotes.  
   - 📱 Fully responsive layout powered by **Bootstrap**.  
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/Quota/) 🌐
+
 --- 
+
 ### 11. **📱 QR Code Generator**  
 - **Description**: A simple web app that generates QR codes instantly! Just enter any text or URL, and get a scannable QR code. 🚀📷  
 - **Features**:  
@@ -101,6 +106,20 @@ Welcome to my project portfolio! This collection showcases my web development jo
   - 📱 Fully responsive layout powered by **Bootstrap**.  
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/QR-Code-Generator/) 🌐    
 
+Certainly! Here's a GitHub README for your Calculator project, following the format you've provided:
+
+---
+
+### 12. **🧮 Calculator**  
+- **Description**: A sleek and responsive calculator web application for basic arithmetic operations. Perform calculations with ease and style! 🖩✨  
+- **Features**:  
+  - ➕➖ Multiplication, division, addition, and subtraction functionalities.  
+  - 🎨 Modern and intuitive user interface.  
+  - 📱 Fully responsive design powered by **Bootstrap**.  
+  - ⌨️ Keyboard support for efficient input.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/Calculator/) 🌐
+
+---
 
 ## 💡 About These Projects
 Each application is designed with simplicity and functionality in mind. They demonstrate my growing expertise in:
