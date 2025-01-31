@@ -83,6 +83,14 @@ Welcome to my project portfolio! This collection showcases my web development jo
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/Random_Joke/) 🌐
 
 ---
+### 10. **📜 Random Quote Generator**  
+- **Description**: An interactive web app that displays random inspirational quotes to keep you motivated! Click the button to get a new quote each time. ✨💡  
+- **Features**:  
+  - 📝 A variety of motivational quotes to inspire you.  
+  - 🔄 Random quote generator for fresh wisdom every time.  
+  - 📢 Interactive button to generate new quotes.  
+  - 📱 Fully responsive layout powered by **Bootstrap**.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/Quota/) 🌐  
 
 
 ## 💡 About These Projects
