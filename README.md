@@ -90,7 +90,16 @@ Welcome to my project portfolio! This collection showcases my web development jo
   - 🔄 Random quote generator for fresh wisdom every time.  
   - 📢 Interactive button to generate new quotes.  
   - 📱 Fully responsive layout powered by **Bootstrap**.  
-- **Live Demo**: [View Here](https://gulzaralice1.github.io/Quota/) 🌐  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/Quota/) 🌐
+--- 
+### 11. **📱 QR Code Generator**  
+- **Description**: A simple web app that generates QR codes instantly! Just enter any text or URL, and get a scannable QR code. 🚀📷  
+- **Features**:  
+  - 🔹 Instant QR code generation.  
+  - ✍️ Enter text or a link to create a QR code.  
+  - 📥 Download and save your QR code.  
+  - 📱 Fully responsive layout powered by **Bootstrap**.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/QR-Code-Generator/) 🌐    
 
 
 ## 💡 About These Projects
