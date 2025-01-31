@@ -9,7 +9,7 @@ async function getQuote(api_key) {
     Quota.innerHTML = data.content;
     Author.innerHTML = "- " + data.author;
 }
-getQuote(api_key);
+// getQuote(api_key);
 
 function tweetQuote() {
     const quote = Quota.innerText;
