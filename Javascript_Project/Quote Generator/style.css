@@ -5,11 +5,8 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: linear-gradient(135deg, #f5f7fa, #629eff);
+    background: linear-gradient(100deg, #c4d7f4, #629eff); /* Linear gradient background */
 }
 .container{
     margin-top: 106px;
-}
-.quote-container{
-
 }

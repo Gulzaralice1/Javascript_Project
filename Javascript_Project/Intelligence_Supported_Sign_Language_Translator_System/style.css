@@ -1,0 +1,26 @@
+.logo{
+    height: 54px;
+    width: 150px;
+}
+.nav-link{
+    color: rgb(80, 26, 137) !important;
+    font-size: 16px;
+    margin: 0 25px;
+    /* font-weight: bold; */
+}
+.company{
+    height: 40%;
+    width: 80%;
+    background-color: rgb(80, 26, 137);
+}
+
+.overlay-div {
+    position: absolute;
+    top: 300;
+    /* left: 0; */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
