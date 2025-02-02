@@ -121,6 +121,21 @@ Certainly! Here's a GitHub README for your Calculator project, following the for
 
 ---
 
+🧮 **Calculator**  
+**Description**: A sleek and responsive calculator web application for basic arithmetic operations. Perform calculations with ease and style! 🖩✨  
+
+**Features**:  
+➕➖ **Basic Operations**: Multiplication, division, addition, and subtraction functionalities.  
+🎨 **Modern UI**: Clean and intuitive user interface for seamless interaction.  
+📱 **Responsive Design**: Fully responsive layout powered by Bootstrap, ensuring compatibility across all devices.  
+⌨️ **Keyboard Support**: Efficient input using keyboard keys for quick calculations.  
+
+**Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/Calculator/)  
+
+--- 
+
+
+
 ## 💡 About These Projects
 Each application is designed with simplicity and functionality in mind. They demonstrate my growing expertise in:
 - **HTML**, **CSS**, and **JavaScript**.
