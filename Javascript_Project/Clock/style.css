@@ -1,0 +1,80 @@
+body {
+    background: #1c170a;
+    color: #fffbe0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.time {
+    font-size: 120px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.time span {
+    margin: 0 10px;
+}
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.btn-custom {
+    background: #ffcc00;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn-round {
+    background: #ffcc00;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+/* Outer Circle Container */
+.btn-toggle-container {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #332c1c;
+    transition: background-color 0.3s ease;
+}
+/* Inner Circle */
+.btn-toggle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5b746d;
+    transition: left 0.3s ease;
+}
+/* Active Bright Theme */
+.bright {
+    background: #5b746d;
+    color: #1c170a;
+}
+.dark body {
+    background: #1c170a;
+    color: #fffbe0;
+}
+
+/* Date and Time Display */
+.datetime {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.datetime span {
+    display: block;
+}
