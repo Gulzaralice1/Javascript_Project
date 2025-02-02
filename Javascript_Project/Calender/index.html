@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimal Calendar UI</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <style>
 
@@ -19,8 +22,13 @@
         <div class="right-section">
             <div class="month" id="month">January</div>
             <div class="year" id="year">2020</div>
-            <div class="time" id="time">12:00:00</div>
+            <div class="timer bold" id="time">12:00:00</div>
         </div>
+    </div>
+
+    <div class="stopwatch-container">
+        <div id="demo" class="timer text-white">00</div>
+        <button onclick="start()" class="btn start text-white">Start</button>
     </div>
 
     <script src="script.js"></script>
