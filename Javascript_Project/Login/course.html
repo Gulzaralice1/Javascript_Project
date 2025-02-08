@@ -15,9 +15,10 @@
             <!-- Python Card -->
             <div class="col-md-4">
                 <div class="course-card p-3">
-                    <h3 class="text-primary">Python</h3>
-                    <p class="discription">Python from scratch, covering basics to advanced concepts like OOP, data structures, and libraries.</p>
-                    <button class="btn btn-primary" onclick="python()">Explore Course</button>
+                    <h3 class="text-primary">English</h3>
+                    <p class="discription">Learn English from the basics to advanced levels, covering grammar, vocabulary, speaking, writing, and reading skills.</p>
+                    <p class="text-success bold" style="font-size: 9px; font-weight: bold; margin-top: -10px;">ACTIVE</p>
+                    <button class="btn btn-primary" onclick="english()">Explore Course</button>
                 </div>
             </div>
 
@@ -60,23 +61,25 @@
     </div>
 
     <script src="course.js"></script>
+    <script src="script copy.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        function python(){
-            alert("Python Course is selected");
+        function english(){
+            // alert("Python Course is selected");
+            window.location.href = 'python.html'
         }
         function cplus(){
-            alert("C++ Course is selected");
+            alert("C++ Course is END");
         }
         function java(){
-            alert("Java Course is selected");
+            alert("Java Course is END");
         }
         function html(){
-            alert("HTML Course is selected");
+            alert("HTML Course is END");
         }
         function css(){
-            alert("CSS Course is selected");
+            alert("CSS Course is END");
         }
     </script>
 </body>
