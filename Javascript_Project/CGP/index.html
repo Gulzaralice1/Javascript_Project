@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #1c1c1c, #444);
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            background: #2c2f33;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+        }
+        .btn-custom {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+        }
+        .btn-custom:hover {
+            background: #e63946;
+        }
+        .form-control {
+            background: #3a3d42;
+            color: white;
+            border: none;
+        }
+        .form-control::placeholder {
+            color: #b0b3b8;
+        }
+        .alert-info {
+            background: #17a2b8;
+            color: white;
+        }
+        .course{
+            border: 2px solid green !important;
+            
+        }
+        .deleteIcone{
+            margin-top: 8px; 
+            font-size: 21px; 
+            cursor: pointer;
+            color: #FFD43B;
+        }
+
+        .downloadpDF{
+            margin-top: 10px !important;
+            font-size: 20PX;
+            color: rgb(1, 16, 1);
+        }
+        .downloadpDF:hover{
+            color: #e63946;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h2 class="mb-4 text-danger rubik-mono-one-regular">CGPA Calculator</h2>
+        <div id="courses">
+            <!-- <div class="row g-2 mb-2">
+                <div class="col"><input type="text" class="form-control" placeholder="Course Name"></div>
+                <div class="col"><input type="number" class="form-control" placeholder="Credits" min="1"></div>
+                <div class="col"><input type="text" class="form-control" placeholder="Grade"></div>
+                <div class="col-auto"><i class="fa-solid fa-trash" onclick="removeCourse(this)></i></div>
+            </div> -->
+        </div>
+        <button class="btn btn-custom mt-3" onclick="addCourse()">Add Course</button>
+        <button class="btn btn-success mt-3" onclick="calculateCGPA()">Calculate CGPA</button>
+        <i class="fa-solid fa-download downloadpDF mt-3" onclick="generatePDF()"></i>
+        <div class="alert alert-info mt-3" id="cgpaResult">Your CGPA: N/A</div>
+    </div>
+
+    <!-- Include jsPDF Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        // Initialize jsPDF
+        const { jsPDF } = window.jspdf;
+        function addCourse(){
+          const div = document.createElement("div");
+          div.className = " row g-2 mb-2";
+          div.innerHTML = `<div class="col"><input type="text" class="form-control" placeholder="Course Name"></div>
+                        <div class="col"><input type="number" class="form-control" placeholder="Credits" min="1"></div>
+                        <div class="col"><input type="text" class="form-control" placeholder="Grade"></div>
+                        <div class="col-auto"><i class="fa-solid fa-trash deleteIcone" onclick="removeCourse(this)"></i></div>`
+          document.getElementById("courses").appendChild(div);
+        }
+
+        function removeCourse(button){
+            button.parentElement.parentElement.remove();
+        }
+
+
+        // Function to calculate CGPA
+        function calculateCGPA(){
+            const course = document.querySelectorAll("#courses .row")
+            let totalCredits = 0;
+            let totalGradePoints = 0;
+
+            // Grade to GPA mapping
+            const gradeToGPA = {
+                'A': 4.0, 
+                'A-': 3.7, 
+                'B+': 3.3, 
+                'B': 3.0,
+                'B-': 2.7, 
+                'C+': 2.3, 
+                'C': 2.0, 
+                'C-': 1.7,
+                'D+': 1.3, 
+                'D': 1.0, 
+                'F': 0.0
+            };
+
+            let isValid = true;
+
+           course.forEach(course =>{
+            const creditInput = course.querySelector("input[placeholder='Credits']");
+            const gradeInput = course.querySelector("input[placeholder='Grade']");
+
+            if(!creditInput.value || !gradeInput.value){
+                alert("Please fill in all fields for every course.");
+                isValid = false;
+                return;
+            }else{
+                isValid = true;
+            }
+
+
+            const credit = parseFloat(creditInput.value);
+            const grade = gradeInput.value.toUpperCase();
+    
+            if(!gradeToGPA.hasOwnProperty(grade)){
+                isValid = false;
+                alert(`Invalid grade entered: ${grade}. Please enter a valid grade (e.g., A, B+, C-).`);
+                return
+            }
+
+            totalCredits += credit;
+            totalGradePoints += credit * gradeToGPA[grade];
+
+            if(isValid && totalCredits > 0){
+                const CGPA = (totalGradePoints / totalCredits).toFixed(2);
+                document.getElementById("cgpaResult").textContent = `Your CGPA: ${CGPA}`;
+
+            }else if(totalCredits === 0){
+                alert("Please add at least one course with valid details.");
+            }
+
+        })
+        }
+
+        function generatePDF(){
+            const cgpaResult = document.getElementById("cgpaResult").textContent;
+            const course = document.querySelectorAll("#courses .row")
+
+             // Create a new jsPDF instance
+            const doc = new jsPDF();
+
+
+            // Title to center
+            const title = "CGPA Report";
+
+            // Get the width of the title
+            const textWidth = doc.getTextWidth(title);
+
+            // Calculate the x coordinate for centering
+            const pageWidth = doc.internal.pageSize.getWidth(); // Default: 595.28 points for A4
+            const x = (pageWidth - textWidth) / 2;
+
+            // Add title
+            doc.setFontSize(18);
+            doc.text(title,x,10);
+
+            // Add CGPA result
+            doc.setFontSize(12);
+            doc.text(cgpaResult,10,20);
+            // Draw a horizontal line below the CGPA result
+            doc.line(10, 25, 200, 25); // Line from (10, 25) to (200, 25)
+
+             // Add course details
+            let yPos = 30;
+            course.forEach(course =>{
+                const courseName = course.querySelector("input[placeholder='Course Name']").value;
+                const credits = course.querySelector("input[placeholder='Credits']").value;
+                const grade = course.querySelector("input[placeholder='Grade']").value;
+
+                doc.text(`Course:   ${courseName},  Credits:    ${credits},    Grade:   ${grade},   `,10, yPos );
+                yPos+=10;
+            })
+             // Save the PDF
+             doc.text("Gulzar_alice",10,yPos);
+            doc.save("CGPA_Report.pdf");
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
