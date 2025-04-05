@@ -6,139 +6,185 @@ Welcome to my project portfolio! This collection showcases my web development jo
 
 ## 🚀 Featured Projects
 
-### 1. **🌐 Login Page**
-   - **Description**: A sleek and simple login interface with fields for email and password. Includes a "Forgot Password?" link for user assistance.
-   - **Live Demo**: [View Here](https://gulzaralice1.github.io/login/)
+### 1. 💸 **Expense Splitter**  
+**Description**: A smart and simple web app to divide group expenses fairly. Whether it's a trip, party, or dinner outing, this tool makes sure everyone pays their fair share! 🤝📊  
+
+**Features**:  
+🧾 **Expense Input**: Enter names and amounts paid with ease.  
+⚖️ **Fair Splitting**: Automatically calculates how much each person owes or is owed.  
+📱 **Responsive Design**: Powered by Bootstrap for seamless use across devices.  
+🎯 **Clear Results**: Clean output showing balances for easy understanding.  
+
+**Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/Expense-Splitter/)
 
 ---
 
-### 2. **📝 Notes App**
-   - **Description**: Manage your thoughts and ideas with this easy-to-use Notes App. Add, edit, and view your notes in one place.
-   - **Features**:
-     - Simple note creation.
-     - Persistent storage for notes.
-   - **Live Demo**: [View Here](https://gulzaralice1.github.io/NotesApp/)
+### 2. **🌐 Login Page**  
+- **Description**: A sleek and simple login interface with fields for email and password. Includes a "Forgot Password?" link for user assistance.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/login/)
 
 ---
 
-### 3. **☁️ Weather App**
-   - **Description**: Stay updated with real-time weather data, including temperature, humidity, and wind speed for your location.
-   - **Features**:
-     - Location-based weather updates.
-     - User-friendly interface.
-   - **Live Demo**: [View Here](https://gulzaralice1.github.io/Weather-app/)
+### 3. **📝 Notes App**  
+- **Description**: Manage your thoughts and ideas with this easy-to-use Notes App. Add, edit, and view your notes in one place.  
+- **Features**:  
+  - Simple note creation.  
+  - Persistent storage for notes.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/NotesApp/)
 
 ---
 
-### 4. **📋 To-Do List**
-   - **Description**: Organize your day with this handy to-do list. Add tasks and keep track of your progress effortlessly.
-   - **Features**:
-     - Task management made simple.
-     - Displays total tasks.
-   - **Live Demo**: [View Here](https://gulzaralice1.github.io/ToDo-List/)
+### 4. **☁️ Weather App**  
+- **Description**: Stay updated with real-time weather data, including temperature, humidity, and wind speed for your location.  
+- **Features**:  
+  - Location-based weather updates.  
+  - User-friendly interface.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/Weather-app/)
 
 ---
 
-### 5. **🔒 Password Generator**
-   - **Description**: Enhance your online security with a strong, random password generator. Generate and copy secure passwords with one click.
-   - **Features**:
-     - Instant password generation.
-     - Copy to clipboard functionality.
-   - **Live Demo**: [View Here](https://gulzaralice1.github.io/Password_Generator/)
+### 5. **📋 To-Do List**  
+- **Description**: Organize your day with this handy to-do list. Add tasks and keep track of your progress effortlessly.  
+- **Features**:  
+  - Task management made simple.  
+  - Displays total tasks.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/ToDo-List/)
 
 ---
 
-### 6. **🎨 Color Picker**
-   - **Description**: A delightful tool for designers and developers to choose and identify colors effortlessly.
-   - **Features**:
-     - Intuitive color selection.
-   - **Live Demo**: [View Here](https://gulzaralice1.github.io/color-picker/)
+### 6. **🔒 Password Generator**  
+- **Description**: Enhance your online security with a strong, random password generator. Generate and copy secure passwords with one click.  
+- **Features**:  
+  - Instant password generation.  
+  - Copy to clipboard functionality.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/Password_Generator/)
 
 ---
 
-### 7. **🔄 Swap Numbers**
-   - **Description**: An interactive tool that allows users to input two numbers and swap their values with a simple click.
-   - **Features**:
-     - User-friendly interface with input fields for two numbers.
-     - Instantly displays the swapped result upon clicking the "Swap" button.
-   - **Live Demo**: [View Here](https://gulzaralice1.github.io/Swap/)
+### 7. **🎨 Color Picker**  
+- **Description**: A delightful tool for designers and developers to choose and identify colors effortlessly.  
+- **Features**:  
+  - Intuitive color selection.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/color-picker/)
 
 ---
 
-### 8. **💖 Love Message App 💌**
-- **Description**: A fun and interactive web app that displays heartwarming messages for her, one by one, every time you click the button. Perfect for spreading love and positivity! 💕😊
-- **Features**:
-  - 💬 Sequential messages that appear one by one.
-  - ❤️ Randomized or fixed flow of messages.
-  - 🎉 Interactive button to reveal new messages.
-  - 📱 Fully responsive layout powered by **Bootstrap**.
+### 8. **🔄 Swap Numbers**  
+- **Description**: An interactive tool that allows users to input two numbers and swap their values with a simple click.  
+- **Features**:  
+  - User-friendly interface with input fields for two numbers.  
+  - Instantly displays the swapped result upon clicking the "Swap" button.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/Swap/)
+
+---
+
+### 9. **💖 Love Message App 💌**  
+- **Description**: A fun and interactive web app that displays heartwarming messages for her, one by one, every time you click the button.  
+- **Features**:  
+  - 💬 Sequential messages that appear one by one.  
+  - ❤️ Randomized or fixed flow of messages.  
+  - 🎉 Interactive button to reveal new messages.  
+  - 📱 Fully responsive layout powered by **Bootstrap**.  
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/love-message-app/) 🌐
+
 ---
 
-### 9. **😂 Random Joke Generator**
-- **Description**: An interactive web app that displays random jokes to brighten your day! Just click the button to get a new joke each time. 😄🎉
-- **Features**:
-  - 🎭 A variety of jokes to keep the laughter going.
-  - 🤖 Random joke generator for a new laugh every time.
-  - 🎉 Interactive button to reveal the joke.
-  - 📱 Fully responsive layout powered by **Bootstrap**.
+### 10. **😂 Random Joke Generator**  
+- **Description**: An interactive web app that displays random jokes to brighten your day!  
+- **Features**:  
+  - 🎭 A variety of jokes to keep the laughter going.  
+  - 🤖 Random joke generator for a new laugh every time.  
+  - 📱 Fully responsive layout powered by **Bootstrap**.  
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/Random_Joke/) 🌐
 
 ---
 
-### 10. **📜 Random Quote Generator**  
-- **Description**: An interactive web app that displays random inspirational quotes to keep you motivated! Click the button to get a new quote each time. ✨💡  
+### 11. **📜 Random Quote Generator**  
+- **Description**: Displays random inspirational quotes to keep you motivated!  
 - **Features**:  
-  - 📝 A variety of motivational quotes to inspire you.  
-  - 🔄 Random quote generator for fresh wisdom every time.  
-  - 📢 Interactive button to generate new quotes.  
-  - 📱 Fully responsive layout powered by **Bootstrap**.  
+  - 📝 Variety of motivational quotes.  
+  - 🔄 Refreshes quote with each click.  
+  - 📱 Fully responsive with **Bootstrap**.  
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/Quota/) 🌐
-
---- 
-
-### 11. **📱 QR Code Generator**  
-- **Description**: A simple web app that generates QR codes instantly! Just enter any text or URL, and get a scannable QR code. 🚀📷  
-- **Features**:  
-  - 🔹 Instant QR code generation.  
-  - ✍️ Enter text or a link to create a QR code.  
-  - 📥 Download and save your QR code.  
-  - 📱 Fully responsive layout powered by **Bootstrap**.  
-- **Live Demo**: [View Here](https://gulzaralice1.github.io/QR-Code-Generator/) 🌐    
-
-Certainly! Here's a GitHub README for your Calculator project, following the format you've provided:
 
 ---
 
-### 12. **🧮 Calculator**  
-- **Description**: A sleek and responsive calculator web application for basic arithmetic operations. Perform calculations with ease and style! 🖩✨  
+### 12. **📱 QR Code Generator**  
+- **Description**: Generate QR codes instantly by entering any text or URL.  
 - **Features**:  
-  - ➕➖ Multiplication, division, addition, and subtraction functionalities.  
-  - 🎨 Modern and intuitive user interface.  
-  - 📱 Fully responsive design powered by **Bootstrap**.  
-  - ⌨️ Keyboard support for efficient input.  
+  - 🔹 Instant QR code generation.  
+  - ✍️ Easy text input.  
+  - 📥 Download option.  
+  - 📱 Bootstrap-based responsive design.  
+- **Live Demo**: [View Here](https://gulzaralice1.github.io/QR-Code-Generator/) 🌐    
+
+---
+
+### 13. **🧮 Calculator**  
+- **Description**: Perform basic arithmetic operations with a clean interface.  
+- **Features**:  
+  - ➕➖➗✖️ All basic operations supported.  
+  - ⌨️ Keyboard-friendly and responsive.  
 - **Live Demo**: [View Here](https://gulzaralice1.github.io/Calculator/) 🌐
 
 ---
 
-🧮 **Calculator**  
-**Description**: A sleek and responsive calculator web application for basic arithmetic operations. Perform calculations with ease and style! 🖩✨  
+### 14. **🧮 CGPA Calculator**  
+- **Description**: Calculates CGPA by entering courses, credits, and grades.  
+- **Features**:  
+  - 📚 Course & grade management.  
+  - 🖥️ Modern UI.  
+  - 📱 Responsive layout using Bootstrap.  
+- **Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/CGPA-Calculator/)  
 
+---
+
+### 15. **📆 Minimal Calendar UI**  
+- **Description**: Shows current date and time in a clean and minimal layout.  
+- **Features**:  
+  - 🕒 Real-time date/time.  
+  - 🎨 Minimal UI.  
+  - 📱 Responsive layout.  
+- **Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/calendar/)
+
+---
+
+### 16. **⏰ Clock**  
+- **Description**: Digital clock displaying current time and date.  
+- **Features**:  
+  - ⏱ Real-time display.  
+  - 📆 Date info included.  
+  - 📱 Responsive and interactive.  
+- **Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/Clock/)
+
+---
+
+### 17. **🔢 Number Checker**  
+- **Description**: Check if a number is Even or Odd.  
+- **Features**:  
+  - ✅ Instant results.  
+  - 📱 Clean and responsive interface.  
+- **Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/Number-Checker/)
+
+---
+
+### 18. **🌈 Multiple Color Changer**  
+**Description**: A fun and vibrant app that changes background colors dynamically! Perfect for experimenting with color palettes or adding interactivity to a web page.  
 **Features**:  
-➕➖ **Basic Operations**: Multiplication, division, addition, and subtraction functionalities.  
-🎨 **Modern UI**: Clean and intuitive user interface for seamless interaction.  
-📱 **Responsive Design**: Fully responsive layout powered by Bootstrap, ensuring compatibility across all devices.  
-⌨️ **Keyboard Support**: Efficient input using keyboard keys for quick calculations.  
+- 🎨 Click to change to random colors.  
+- 🌟 Vibrant and visually engaging.  
+- 📱 Fully responsive with Bootstrap.  
 
-**Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/Calculator/)  
+**Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/multiple_colour/)
 
---- 
+---
 
-
+Would you like me to update the full portfolio list with this added at the end, or move it up somewhere else in priority?
 
 ## 💡 About These Projects
 Each application is designed with simplicity and functionality in mind. They demonstrate my growing expertise in:
-- **HTML**, **CSS**, and **JavaScript**.
-- Responsive design principles.
-- User-focused development.
+- **HTML**, **CSS**, and **JavaScript**
+- Responsive and interactive UI design
+- Real-world use cases and creativity
 
+---
