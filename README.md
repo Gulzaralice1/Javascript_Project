@@ -168,18 +168,18 @@ Welcome to my project portfolio! This collection showcases my web development jo
 
 ---
 
-### 18. **🌈 Multiple Color Changer**  
-**Description**: A fun and vibrant app that changes background colors dynamically! Perfect for experimenting with color palettes or adding interactivity to a web page.  
+### 18. **📊 Attendify – Attendance Calculator**  
+**Description**: A sleek and smart web tool to instantly calculate your attendance percentage using total classes, attended classes, and duty leaves. Ideal for students to track and maintain their attendance with ease.  
 **Features**:  
-- 🎨 Click to change to random colors.  
-- 🌟 Vibrant and visually engaging.  
-- 📱 Fully responsive with Bootstrap.  
+- 🧮 Real-time attendance calculation.  
+- 📝 Inputs for classes attended, duty leave, and total classes.  
+- ♻️ Reset functionality for quick reuse.  
+- 📱 Fully responsive using Bootstrap.  
 
-**Live Demo**: [View Here 🌐](https://gulzaralice1.github.io/multiple_colour/)
+**Live Demo**: [Try it Now 🌐](https://gulzaralice1.github.io/attendance-calculator/)
 
 ---
 
-Would you like me to update the full portfolio list with this added at the end, or move it up somewhere else in priority?
 
 ## 💡 About These Projects
 Each application is designed with simplicity and functionality in mind. They demonstrate my growing expertise in:
