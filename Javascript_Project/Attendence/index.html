@@ -15,7 +15,12 @@
       min-height: 100vh;
     }
     .card {
-      background-color: #1e1e1e;
+      /* background-color: #1e1e1e; */
+      /* background-image: url(pencilsketchadjusted-4413322.jpg); */
+      background-image: url("lpu.jpg");
+      background-size: cover; /* or use contain / 100% 100% */
+      background-repeat: no-repeat;
+      background-position: center;
       border-radius: 12px;
       padding: 30px;
       padding-bottom: 5px !important;
@@ -27,6 +32,7 @@
       /* background-color: #2b2b2b; */
       color: #2b2b2b;
       border: 1px solid #444;
+      opacity: 0.5;
     }
     .form-control:focus {
       border-color: #2196f3;
@@ -43,34 +49,38 @@
       margin-top: 20px;
       border: 1px solid #444;
       color: wheat;
+      opacity: 0.5;
+    }
+    button{
+      opacity: 0.5;
     }
   </style>
 </head>
 <body>
 
   <div class="card">
-    <h4 class="text-center text-info mb-4">Attendance Calculator</h4>
+    <h4 class="text-center mb-4">Attendify</h4>
     
     <!-- <p class="mb-3 text-center">Enter All the Three Fields:</p> -->
 
     <form>
       <div class="mb-3">
-        <label for="attended" class="form-label text-info">Classes Attended</label>
+        <label for="attended" class="form-label text-white">Classes Attended</label>
         <input type="number" class="form-control" id="attended" placeholder="e.g. 33">
       </div>
 
       <div class="mb-3">
-        <label for="attended" class="form-label text-info">Duty leave (DL)</label>
+        <label for="attended" class="form-label text-white">Duty leave (DL)</label>
         <input type="number" class="form-control" id="dl" placeholder="e.g. 3 (optional)">
       </div>
 
       <div class="mb-3">
-        <label for="conducted" class="form-label text-info">Classes Conducted</label>
+        <label for="conducted" class="form-label 	text-white ">Classes Conducted</label>
         <input type="number" class="form-control" id="conducted" placeholder="e.g. 45">
       </div>
 
       <!-- <div class="mb-4">
-        <label for="desired" class="form-label text-info">Desired Percentage</label>
+        <label for="desired" class="form-label ">Desired Percentage</label>
         <input type="number" class="form-control" id="desired" placeholder="e.g. 75">
       </div> -->
 
